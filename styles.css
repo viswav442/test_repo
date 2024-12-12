@@ -1,0 +1,61 @@
+ /* css reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+
+.container{
+    background-color: rgb(126, 126, 220,0.5);
+    max-width: 60vw;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 30px;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+}
+
+img{
+    border-radius: 48%;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.name p{
+    text-align: end;
+    font-weight: 500;
+}
+
+
+.second{
+    margin: 30px 0;
+}
+
+.second p{
+    margin: 30px 0;
+    font-weight: 600;
+}
+
+ul li{
+    margin: 5px 15px;
+    font-weight: 600;
+}
+
+.read{
+    margin-top: 30px;
+    text-align: end;
+}
+
